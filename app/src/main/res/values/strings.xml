@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AI_Practice</string>
+    <string name="text_input">Question asked: <xliff>%1S</xliff></string>
+</resources>
