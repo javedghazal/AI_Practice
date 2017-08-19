@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         tts = new TextToSpeech(this, this);
 
 
-        final AIConfiguration config = new AIConfiguration("Your api key",
+        final AIConfiguration config = new AIConfiguration("YOUR-API-KEY",
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
 
