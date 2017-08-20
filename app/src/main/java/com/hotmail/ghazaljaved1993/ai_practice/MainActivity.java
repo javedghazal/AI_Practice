@@ -204,7 +204,6 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
                         protected void onPostExecute(AIResponse aiResponse) {
                             if (aiResponse != null) {
                                 // process aiResponse here
-//                            Toast.makeText(getApplicationContext(), aiResponse+"", Toast.LENGTH_SHORT).show();
                                 Result result = aiResponse.getResult();
 
                                 // Get parameters
@@ -215,7 +214,6 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
                                     }
                                 }
 
-                                // Show results in TextView.
                                 txtResult.setText("Query:" + result.getResolvedQuery() +
                                         "\nAction: " + result.getAction() +
                                         "\nParameters: " + parameterString);
