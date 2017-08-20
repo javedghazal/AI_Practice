@@ -264,9 +264,9 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
     /*
-     *
+     
      * END - FOR TEXT TO SPEECH
-     *
+     
     */
 
 }
