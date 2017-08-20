@@ -246,7 +246,6 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
                     || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 Log.e("TTS", "This Language is not supported");
             } else {
-//                btnSpeak.setEnabled(true);
                 speakTextToUser("Hello there");
             }
 
