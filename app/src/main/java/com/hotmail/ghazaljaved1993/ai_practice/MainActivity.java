@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
 
         tts = new TextToSpeech(this, this);
 
-
         final AIConfiguration config = new AIConfiguration("6a755bf4f7a24df894794c74a0b1b67f",
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
@@ -154,9 +153,9 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
     }
 
     /**
-     * START - FOR SPEECH TO TEXT
-     * Showing google speech input dialog
-     * */
+      START - FOR SPEECH TO TEXT
+      Showing google speech input dialog
+      */
     private void promptSpeechInput() {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
