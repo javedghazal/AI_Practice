@@ -230,10 +230,9 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         }
     }
 
+
     /*
-    *
-    * START - FOR TEXT TO SPEECH
-    *
+     START - FOR TEXT TO SPEECH
     */
     @Override
     public void onInit(int status) {
@@ -263,9 +262,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
     /*
-     
-     * END - FOR TEXT TO SPEECH
-     
+     END - FOR TEXT TO SPEECH
     */
 
 }
