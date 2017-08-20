@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
     Button btnStop;
     TextView txtResult;
     TextView txtInput;
-    private AIService aiService;
+//    private AIService aiService;
     private final int REQ_CODE_SPEECH_INPUT = 100;
     AIRequest aiRequest;
     AIDataService aiDataService;
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         tts = new TextToSpeech(this, this);
 
 
-        final AIConfiguration config = new AIConfiguration("YOUR-API-KEY",
+        final AIConfiguration config = new AIConfiguration("6a755bf4f7a24df894794c74a0b1b67f",
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
 
