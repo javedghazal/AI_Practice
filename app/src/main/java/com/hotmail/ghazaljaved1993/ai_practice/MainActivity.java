@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
     private final int REQ_CODE_SPEECH_INPUT = 100;
     AIRequest aiRequest;
     AIDataService aiDataService;
-    private TextToSpeech tts;
+    public TextToSpeech tts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
