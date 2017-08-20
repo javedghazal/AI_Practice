@@ -230,10 +230,9 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         }
     }
 
+
     /*
-    *
-    * START - FOR TEXT TO SPEECH
-    *
+     START - FOR TEXT TO SPEECH
     */
     @Override
     public void onInit(int status) {
@@ -246,7 +245,6 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
                     || result == TextToSpeech.LANG_NOT_SUPPORTED) {
                 Log.e("TTS", "This Language is not supported");
             } else {
-//                btnSpeak.setEnabled(true);
                 speakTextToUser("Hello there");
             }
 
@@ -264,9 +262,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
     /*
-     
-     * END - FOR TEXT TO SPEECH
-     
+     END - FOR TEXT TO SPEECH
     */
 
 }
