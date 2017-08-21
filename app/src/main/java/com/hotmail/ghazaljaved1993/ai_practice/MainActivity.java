@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements AIListener, TextT
     TextView txtResult;
     TextView txtInput;
 //    private AIService aiService;
-    private final int REQ_CODE_SPEECH_INPUT = 102;
+    private final int REQ_CODE_SPEECH_INPUT = 103;
     AIRequest aiRequest;
     AIDataService aiDataService;
     public TextToSpeech tts;
